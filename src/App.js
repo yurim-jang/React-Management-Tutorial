@@ -1,15 +1,11 @@
 import React, { Component, component } from 'react';
-import logo from './logo.svg';
+import Customer from './components/Customer'
 import './App.css';
 
 class App extends Component {
 render() {
-
   return(
-    <div className='gray-background'>
-    <img src={logo} lat= "logo" />
-    <h2> Lat's develop management ststem!</h2>
-  </div>
+    <Customer/>
   );
 }
 }
